@@ -1,0 +1,28 @@
+{
+  "name": "examconductor",
+  "version": "1.0.0",
+  "description": "Takes examination by using socket.io and Node.js with an express server.",
+  "main": "Server/server.js",
+  "scripts": {
+    "start": "node Server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/523room/exam-conductor.git"
+  },
+  "engines": {
+    "node": "9.4.0"
+  },
+  "author": "JV FTT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/523room/exam-conductor/issues"
+  },
+  "homepage": "https://github.com/523room/exam-conductor#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "socketio": "^1.0.0"
+  }
+}
