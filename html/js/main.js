@@ -16,7 +16,7 @@ var socket = io();
                 check=false;
             }
         }
-        
+
         return check;
     });
 
